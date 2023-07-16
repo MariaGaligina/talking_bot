@@ -1,12 +1,6 @@
 const {Telegraf, Markup, Extra} = require('telegraf')
 
 const bot = new Telegraf('6344467212:AAEbIpqY7I0nJd4HVJlJk37gzwWNe632FTw')
-/*
-bot.on('message', (ctx) => {
-	console.log(ctx.message.text)
-})*/
-
-//{reply_markup: Markup.inlineKeyboard([[Markup.callbackButton('button1', 'p')]])}
 
 //несколько наборов слов для выбора ответов бота
 const greetings = [
@@ -156,7 +150,6 @@ const angerStickers = [
 
 function includesSubstringInArray(message) {
 	return function includesSubstring(array) {
-		//const messageLowerCase = message.toLowerCase()
 		return array.some((substring) => message.toLowerCase().includes(substring))
 	}
 }
@@ -201,7 +194,7 @@ async function whatICan(ctx) {
 	Обратиться к меню можно в самом низу 
 	(или командой '/menu')`)
 	await ctx.replyWithPhoto({
-		source: 'C:/Users/home/web/my_little_pride_tg_bot/pictures/пример переписки.png',
+		source: './pictures/пример переписки.png',
 	})
 	await ctx.reply(
 		'Конопка вызова меню находится в самом низу',
