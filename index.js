@@ -1,7 +1,7 @@
 const {Telegraf, Markup, Extra} = require('telegraf')
 
 const bot = new Telegraf('6344467212:AAEbIpqY7I0nJd4HVJlJk37gzwWNe632FTw')
-
+//
 //несколько наборов слов для выбора ответов бота
 const greetings = [
 	'привет',
