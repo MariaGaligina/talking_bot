@@ -13,6 +13,8 @@
 	"license": "ISC",
 	"dependencies": {
 		"axios": "^1.4.0",
+		"extra": "^0.2.1",
+		"markup": "^0.0.4",
 		"nodemon": "^3.0.1",
 		"telegraf": "3.39"
 	}
