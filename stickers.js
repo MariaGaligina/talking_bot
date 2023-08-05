@@ -48,7 +48,7 @@ const angerStickers = [
 	'CAACAgIAAxkBAAEJsK1ksTeZR5Fudpzz6vjsmSiho3hpfgACZwUAAj-VzAoofuUG7r451C8E',
 ]
 
-module.exports = {
+export {
 	perfectStickers,
 	joyStickers,
 	laughterStickers,

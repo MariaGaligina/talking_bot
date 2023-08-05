@@ -1,15 +1,18 @@
-const {Telegraf, Markup, Extra} = require('telegraf')
-const {greetings, perfect, joy, laughter, like, sadness, anger} = require('./words')
-const {
+import Telegraf from 'telegraf'
+import Markup from 'markup'
+import Extra from 'extra'
+
+import {greetings, perfect, joy, laughter, like, sadness, anger} from './words.js'
+import {
 	perfectStickers,
 	joyStickers,
 	laughterStickers,
 	likeStickers,
 	sadnessStickers,
 	angerStickers,
-} = require('./stickers')
+} from './stickers.js'
 
-const {
+import {
 	includesSubstringInArray,
 	getRandomInt,
 	selectElement,
@@ -17,7 +20,7 @@ const {
 	callMenuInMessage,
 	wordMatchingCheck,
 	whatICan,
-} = require('./functions')
+} from './functions.js'
 
 //import Telegraf from 'telegraf'
 //import Extra from 'telegraf'

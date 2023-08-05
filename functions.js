@@ -1,4 +1,5 @@
-const {Markup, Extra} = require('telegraf')
+import Markup from 'telegraf/markup.js'
+import Extra from 'telegraf/extra.js'
 
 const includesSubstringInArray = (message) => {
 	return function includesSubstring(array) {
@@ -69,7 +70,7 @@ const whatICan = async (ctx) => {
 	)
 }
 
-module.exports = {
+export {
 	includesSubstringInArray,
 	getRandomInt,
 	selectElement,

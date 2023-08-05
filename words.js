@@ -94,4 +94,4 @@ const sadness = [
 ]
 const anger = ['раздража', ' зол', 'злит', 'злят', 'бесит', '🤬', '😡', '😠', '😤']
 
-module.exports = {greetings, perfect, joy, laughter, like, sadness, anger}
+export {greetings, perfect, joy, laughter, like, sadness, anger}
