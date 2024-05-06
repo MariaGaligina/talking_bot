@@ -1,7 +1,6 @@
 import Telegraf from 'telegraf'
 import Markup from 'markup'
 import Extra from 'extra'
-import BOT_TOKEN from './BOT_TOKEN.js'
 
 import {greetings, perfect, joy, laughter, like, sadness, anger} from './words.js'
 import {
@@ -23,7 +22,11 @@ import {
 	whatICan,
 } from './functions.js'
 
-const bot = new Telegraf(BOT_TOKEN)
+//import Telegraf from 'telegraf'
+//import Extra from 'telegraf'
+//import Markup from 'telegraf'
+
+const bot = new Telegraf('6344467212:AAEbIpqY7I0nJd4HVJlJk37gzwWNe632FTw')
 
 //массивы слов - массивы стикеров
 const dictionary = new Map([
